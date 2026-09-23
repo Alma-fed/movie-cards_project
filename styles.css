@@ -6,10 +6,9 @@ font-family: 'Times New Roman', Times, serif;
 h1{
     text-align: center;
     margin-top: 60px;
-}
-h1{
     font-family: inter, arial, serif ;
 }
+
 .card {
     width: 300px;
     height: 450px;
@@ -23,6 +22,7 @@ h1{
     color: white;
     padding: 30px;
     opacity: 0;
+    text-align: center;
 }
 p{
     line-height: 1.5;
@@ -41,11 +41,79 @@ p{
 .card:hover .overlay {
     background-color: rgba(0, 0, 0, 0.7);
 }
-.movie-info {
-    opacity: 0;
-    color: white;
-    text-align: center;
-}
+
 .card:hover .movie-info {
     opacity: 1;
+}
+.movie-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 300px);
+    gap: 30px;
+    justify-content: center;
+}
+.pianist {
+    width: 300px;
+    height: 450px;
+
+    background-image: url("The_Pianist_movie.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.thegreenmile {
+    width: 300px;
+    height: 450px;
+
+    background-image: url("The green mile.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.Thenotebook {
+    width: 300px;
+    height: 450px;
+    background-image: url("The notebook.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.Abeautifulmind {
+    width: 300px;
+    height: 450px;
+    background-image: url("ABeautifulMind.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.Schindlerslist {
+    width: 300px;
+    height: 450px;
+    background-image: url("schindlers list.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.Amélie {
+    width: 300px;
+    height: 450px;
+    background-image: url("Amelie.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.Forestgump {
+    width: 300px;
+    height: 450px;
+    background-image: url("Forest Gump.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.Shawshank {
+    width: 300px;
+    height: 450px;
+    background-image: url("Shawshank.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
 }
